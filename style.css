@@ -12,15 +12,15 @@ body{
 }
 
 .container{
-  width: 360px; 
+  width: 1440px; 
   height: 2000px;  
   background: #ff0b0b;
   margin: 0 auto;
 }
 
 .main{
-    width: 360px;
-    height: 737px;
+    width: 1440px;
+    height: 858px;
     background-image: url(./bg.png);
 }
 
@@ -59,7 +59,12 @@ body{
 
 }
 
-.boots{
-position: absolute;
-top: 0;
+button{
+    position: absolute;
+    justify-content: center;
+}
+
+
+.but-wrapper{
+    display: flex;
 }
